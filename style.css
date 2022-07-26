@@ -1,0 +1,93 @@
+body{
+    font-family:'Dosis', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.opponents{
+    background-color: black;
+    text-align: center;
+  }
+  .opponents ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+  }
+  .opponents ul li{
+    margin: 20px;
+  }
+  .opponents ul li img{
+     width: 200px;
+     height: 200px;
+  }
+
+  .names{
+    background-color: black;
+    text-align: center;
+  }
+  .names ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+  }
+  .names ul li{
+    font-size:25px;
+    width:200px;
+    margin: 20px;
+  }
+  .img{
+    width: 900px;
+    height: 500px;
+}
+.rei{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.opponent{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+div{
+  color: white;
+}
+.option-bar{
+    background-color: black;
+    text-align: center;
+  }
+  .option-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+  }
+  .option-bar ul li{
+    margin: 20px;
+  }
+  .option-bar ul li button{
+      font-size: 30px;
+    background-color: white;
+    transition: background-color .2s ease;
+  }
+.option-bar ul li button:hover{
+    background-color: gray;
+    transition: background-color .2s ease;
+}
